@@ -49,9 +49,9 @@ github_username:  g4alllf
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Wu Han and I'm a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321), [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
+    Hi, my name's Wu Han and I'm a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321), [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
 
-  I am most skilled in: <mark>Mathematical Modeling</mark>, <mark>Machine Learning</mark> and <mark>Eating</mark>
+    I am most skilled in: <mark>Mathematical Modeling</mark>, <mark>Machine Learning</mark> and <mark>Eating</mark>
 
 content:
   - title: Projects # Title for the section
@@ -71,16 +71,16 @@ content:
         quote: >
           Our rust lesson project.
         description: | # this will include new lines to allow paragraphs
-          This is our <mark>Rust</mark> lesson project. We have learned many useful skills from this lesson and we're very proud of having the chance to apply the things we learned in this project. 
+            This is our <mark>Rust</mark> lesson project. We have learned many useful skills from this lesson and we're very proud of having the chance to apply the things we learned in this project. 
       
       - layout: top-middle
         title: Blog
         link: https://gitee.com/gyau/intermediate-training-blog
-        link_test: Project Address
+        link_text: Project Address
         quote: >
           Our software engineering intermediate training project.
         description:
-          This is our <mark>SSE Intermediate Training</mark> lesson project.
+            This is our <mark>SSE Intermediate Training</mark> lesson project.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -111,28 +111,19 @@ content:
       
       - layout: top-middle
         title: MCM
+        link: https://www.comap.com/contests/mcm-icm
+        link_text: Official Website
         sub_title: Finalist
         caption: September 2022
+        quote: >
+          Optimal allocation of reservior is closely related to economic and livelihood issues. Therefore, it's very important to formulate a reasonable allocation scheme to meet the regional demand.
+        description: | # this will include new lines to allow paragraphs
+            In reservior optimal operation, there are often problems of too many variables and too complex relationship between objectives, which makes it difficult for us to formulate a reasonable reservior operation strategy. In this contest, we proposed an optimal reservior scheduling scheme, and demonstrated the feasibility of the scheme. It's a great honor for our proposal to be nominated for the Finalist of the 2022 MCM Competition(Top 1% of all participants).
       
       - layout: top-middle
         title: SYSU-ICPC Novice trial
         sub_title: First Prize
         caption: September 2022
-      
-      # - layout: top-middle
-      #   title: MCM
-      #   link: https://www.comap.com/contests/mcm-icm
-      #   sub_title: Finalist
-      #   caption: September 2022
-      #   quote: >
-      #     Optimal allocation of reservior is closely related to economic and livelihood issues. Therefore, it's very important to formulate a reasonable allocation scheme to meet the regional demand.
-      #   description:
-      #     In reservior optimal operation, there are often problems of too many variables and too complex relationship between objectives, which makes it difficult for us to formulate a reasonable reservior operation strategy. In this contest, we proposed an optimal reservior scheduling scheme, and demonstrated the feasibility of the scheme. It's a great honor for our proposal to be nominated for the Finalist of the 2022 MCM Competition(Top 1% of all participants).
-      
-      # -layout: top-middle
-      #   title: SYSU-ICPC Novice trial
-      #   sub_title: First Prize
-      #   caption: September 2022
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -144,7 +135,7 @@ content:
         quote: >
           Sun Yat-sen University is a national key public research university located in Guangdong, China.
         description: | # this will include new lines to allow paragraphs
-          During my time at Sun Yat-sen University I learnt skills that are very important for my future career. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+            During my time at Sun Yat-sen University I learnt skills that are very important for my future career. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
   - title: A Little More About Me
     layout: text
