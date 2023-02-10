@@ -104,9 +104,9 @@ content:
         sub_title: Second Prize Scholarship for undergraduates
         caption: October 2022
       
-      # - layout: top-middle
-      #   title: KINGDOM CARES Scholarship
-      #   caption: October 2022
+      - layout: top-middle
+        title: KINGDOM CARES Scholarship
+        caption: October 2022
       
       # - layout: top-middle
       #   title: MCM
