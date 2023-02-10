@@ -59,6 +59,7 @@ content:
     content:
       - layout: left
         title: Rust Online Judge
+        sub_title: Our rust lesson project
         link: https://gitee.com/yangyf83/Rust-OnlineJudge
         link_text: Project Address
         # additional_links:
@@ -69,18 +70,19 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Our rust lesson project.
+          An online judge beckend written in Rust 
         description: | # this will include new lines to allow paragraphs
             This is our <mark>Rust</mark> lesson project. We have learned many useful skills from this lesson and we're very proud of having the chance to apply the things we learned in this project. 
       
       - layout: left
         title: Blog
+        sub_title: Our software engineering intermediate training lesson project
         link: https://gitee.com/gyau/intermediate-training-blog
         link_text: Project Address
         quote: >
-          Our software engineering intermediate training project.
+          A blog system written by our team.
         description:
-            This is our <mark>SSE Intermediate Training</mark> lesson project.
+            This is our <mark>SSE Intermediate Training</mark> lesson project. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,7 +111,7 @@ content:
         sub_title: KINGDOM CARES Scholarship for undergraduates
         caption: October 2022
       
-      - layout: top-middle
+      - layout: left
         title: MCM
         link: https://www.comap.com/contests/mcm-icm
         link_text: Official Website
