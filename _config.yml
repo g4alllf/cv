@@ -110,7 +110,7 @@ content:
       
       - layout: top-middle
         title: MCM
-        link: https://www.comap.com/contests/mcm-icm
+        # link: https://www.comap.com/contests/mcm-icm
         sub_title: Finalist
         caption: September 2022
         # quote: >
