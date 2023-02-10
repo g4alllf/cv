@@ -57,7 +57,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Rust Online Judge
         link: https://gitee.com/yangyf83/Rust-OnlineJudge
         link_text: Project Address
@@ -73,7 +73,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             This is our <mark>Rust</mark> lesson project. We have learned many useful skills from this lesson and we're very proud of having the chance to apply the things we learned in this project. 
       
-      - layout: top-middle
+      - layout: left
         title: Blog
         link: https://gitee.com/gyau/intermediate-training-blog
         link_text: Project Address
