@@ -46,12 +46,12 @@ github_username:  g4alllf
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: BIO
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Wu Han is now a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321)at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). He is currently working on AI security in the TAI lab in the School of Software Engineering under the supervision of Assistant Professor [Weibin Wu](https://sse.sysu.edu.cn/teacher/249).
+    I'm a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321)at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). I'm doing some research on AI security in the TAI lab in the School of Software Engineering under the supervision of Assistant Professor [Weibin Wu](https://sse.sysu.edu.cn/teacher/249), and my current research is on evaluating deep learning model robustness through adversarial attacks to improve AI security.
 
-    His current research is on evaluating deep learning model robustness through adversarial attacks to improve AI security.
+    If you have any questions, please contact me via email.
 
 content:
   - title: Education # Title for the section
@@ -62,7 +62,7 @@ content:
         caption: 2020 - present
         sub_title: BEng Software Engineering
         description: | # this will include new lines to allow paragraphs
-            *GPA*: 3.9/5.0, ranked in the top 30% of his major.
+            *GPA*: 3.9/5.0, ranked in the top 30% of my major.
 
             *Awards*:
             - Second Prize Scholarship for undergraduates, 2022
