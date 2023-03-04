@@ -6,11 +6,11 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Wu Han
-title: A junior student in Sun Yat-sen University
+name: Wu Han (吴翰)
+# title: A junior student in Sun Yat-sen University
 email: wuhan36@mail2.sysu.edu.cn
-website: www.g4alllf.xyz
-website_title: Website Link
+# website: www.g4alllf.xyz
+# website_title: Website Link
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -49,11 +49,9 @@ github_username:  g4alllf
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Hello, my name's Wu Han and I'm a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321), [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
+    Wu Han is now a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321)at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). He is currently working on AI security in the TAI lab in the School of Software Engineering under the supervision of Assistant Professor [Weibin Wu](https://sse.sysu.edu.cn/teacher/249).
 
-    I am most skilled in: <mark>Mathematical Modeling</mark>, <mark>Machine Learning</mark> and <mark>Eating</mark>.
-
-    Please contact me through email if you have any requirements.
+    His current research is on evaluating deep learning model robustness through adversarial attacks to improve AI security.
 
 content:
   - title: Education # Title for the section
@@ -66,92 +64,91 @@ content:
         quote: >
           Sun Yat-sen University is a national key public research university in China.
         description: | # this will include new lines to allow paragraphs
-            *GPA*: 3.9/5.0, ranked in the top 30% of majors.
+            *GPA*: 3.9/5.0, ranked in the top 30% of his major.
 
-            *Major Course*: Artificial Intelligence, Operating System, Computer Network, Block Chain, Data Structure, Compiler Principles, Database Design, Software Analysis, Advanced Mathematics, Linear Algebra, Discrete Mathematics.
+            *Awards*:
+            - Second Prize Scholarship for undergraduates, 2022
+            - KINGDOM CARES Scholarship, 2022
+            - Finalist in [CUMCM](https://www.comap.com/contests/mcm-icm), 2022
+            - First prize in SYSU-ICPC Novice trial, 2022
 
-  - title: Projects # Title for the section
+            *Language*:
+            - Chinese(mother tongue), English(IELTS 7.5)
+
+# *Major Course*: Artificial Intelligence, Operating System, Computer Network, Block Chain, Data Structure, Compiler Principles, Database Design, Software Analysis, Advanced Mathematics, Linear Algebra, Discrete Mathematics.
+
+  - title: Project Experiences # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Rust Online Judge
-        sub_title: Our rust lesson project
-        link: https://gitee.com/yangyf83/Rust-OnlineJudge
-        link_text: Project Address
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          An online judge beckend written in Rust 
+        link: https://github.com/NorthSecond/Rust-OnlineJudge
+        link_text: GitHub Address
         description: | # this will include new lines to allow paragraphs
-            This project is a hands-on opportunity for us to apply the concepts and techniques learned in class to a real-world scenario.
+            This project is based on the actix web framework. The project combines the features of the rust language to implement the online judge project backend that supports asynchronous calls and can compile the rust language and read sql database content in real time.
       
       - layout: left
-        title: Blog
-        sub_title: Our software engineering intermediate training lesson project
+        title: Blog Community
         link: https://gitee.com/gyau/intermediate-training-blog
-        link_text: Project Address
-        quote: >
-          A blog system written by our team.
+        link_text: Gitee Address
         description:
-            This project is an exciting opportunity for us to showcase the newfound skills and knowledge like react, spring boot and database design that we learned through the internet in the field of software engineering.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+            The front end of the project uses the Ant Design UI library, combined with the pluggable enterprise-class react application framework umi, to achieve the interface UI design and project convention-based routing. The project's back end uses SpringBoot to handle HTTP interactions and the MyBatis framework to generate and eventually execute sql statements.
+      
       - layout: left
         title: Citi Cup
         link: https://www.citigroup.com/china/csts/EducationProgram/AboutEducation_CFCcn.html
         link_text: Official Website
         sub_title: Executive Supervisor
-        caption: December 2021 - March 2022
-        quote: >
-          In the long journey of promoting sustainable development, society, we face new problems and challenges continuously.
         description: | # this will include new lines to allow paragraphs
-            Our team combines financial knowledge graphs and natural language processing technologies, obtains training data from different types of text, builds knowledge graphs, and conducts ESG ratings for different enterprises.
+            This project combines financial knowledge graph and natural language processing technologies to build a graph by analyzing public reports of companies to obtain relevant information and use the resulting information to rate different companies and institutions on ESG.
+        
+      - layout: left
+        title: python RPC
+        description: | # this will include new lines to allow paragraphs
+            This project uses python language to build a simple rpc framework that implements message serialization/deserialization, remote method invocation and other functions, while supporting thread pooling and asynchronous high concurrency features.
+            
+  # - title: Experience # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
 
-  - title: Awards # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: SYSU Scholarship
-        sub_title: Second Prize Scholarship for undergraduates
-        caption: October 2022
+  # - title: Honors And Awards # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: SYSU Scholarship
+  #       sub_title: Second Prize Scholarship for undergraduates
+  #       caption: October 2022
       
-      - layout: top-middle
-        title: KINGDOM CARES Scholarship
-        sub_title: KINGDOM CARES Scholarship for undergraduates
-        caption: October 2022
+  #     - layout: top-middle
+  #       title: KINGDOM CARES Scholarship
+  #       sub_title: KINGDOM CARES Scholarship for undergraduates
+  #       caption: October 2022
       
-      - layout: top-middle
-        title: MCM
-        link: https://www.comap.com/contests/mcm-icm
-        link_text: Official Website
-        sub_title: Finalist
-        caption: September 2022
+  #     - layout: top-middle
+  #       title: MCM
+  #       link: https://www.comap.com/contests/mcm-icm
+  #       link_text: Official Website
+  #       sub_title: Finalist
+  #       caption: September 2022
         # quote: >
         #   Optimal allocation of reservior is closely related to economic and livelihood issues. Therefore, it's very important to formulate a reasonable allocation scheme to meet the regional demand.
         # description: | # this will include new lines to allow paragraphs
         #     In reservior optimal operation, there are often problems of too many variables and too complex relationship between objectives, which makes it difficult for us to formulate a reasonable reservior operation strategy. In this contest, we proposed an optimal reservior scheduling scheme, and demonstrated the feasibility of the scheme. It's a great honor for our proposal to be nominated for the Finalist of the 2022 MCM Competition(Top 1% of all participants).
       
-      - layout: top-middle
-        title: SYSU-ICPC Novice trial
-        sub_title: First Prize
-        caption: September 2022
+      # - layout: top-middle
+      #   title: SYSU-ICPC Novice trial
+      #   sub_title: First Prize
+      #   caption: September 2022
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Languages: Chinese(mother tongue), English(IELTS 7.5)
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Languages: Chinese(mother tongue), English(IELTS 7.5)
 
-      Alongside my interests in ML and mathematical modeling some of my other interests and hobbies are:
-      - Music
-      - Gaming
-      - Tennis
+  #     Alongside my interests in ML and mathematical modeling some of my other interests and hobbies are:
+  #     - Music
+  #     - Gaming
+  #     - Tennis
 
 # Look at this cool image  
 #   ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
