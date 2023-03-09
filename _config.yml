@@ -49,6 +49,7 @@ github_username:  g4alllf
 about_title: BIO
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+    [cv](cv.pdf)
     I'm a junior student in [the School of Software Engineering](https://sse.sysu.edu.cn/page/321) at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). I'm currently doing some research on AI security in the TAI lab in the School of Software Engineering under the supervision of Assistant Professor [Weibin Wu](https://sse.sysu.edu.cn/teacher/249), and my research is on evaluating deep learning model robustness through adversarial attacks, with the goal of improving AI security.
 
     If you have any questions, please contact me via email.
